@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+.wrapper{
+    width: 100%;
+  max-width: 414px;
+}
+.container {
+
+  height: 896px;
+  background-image: url("./Images/james-barr-zy5JTdcC0fE-unsplash\ 2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  position: relative;
+}
+.toggle {
+  position: absolute;
+  top: 37px;
+  left: 20px;
+}
+.intro-heading {
+  height: 58px;
+  width: 189px;
+  left: 20px;
+  top: 582px;
+  position: absolute;
+}
+.intro-heading-text {
+  font-weight: 700;
+  font-size: 24px;
+  color: #f2f2f2;
+  line-height: 29px;
+  text-align: left;
+ 
+}
+.intro-paragraph {
+
+  left: 20px;
+  top: 656px;
+  position: absolute;
+}
+.intro-paragraph-text {
+  color: #f2f2f2;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  font-style: normal;
+  width: 284px;
+}
+.intro-paragraph button{
+  border: 1px solid rgba(64, 64, 64, 1);
+  background-color: transparent;
+  width: 177px;
+height: 60px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #404040;
+margin-top: 14px;
+}
+
+.container2{
+    height: 559px;
+    background-color: #F2F2F2;
+    color: #404040;
+
+}
+.container2 > h2{
+font-size: 20px;
+font-weight: 700;
+line-height: 21px;
+
+text-align: center;
+padding: 48px 162px 32px 162px;
+
+}
+
+.container2-content{
+    display: flex;
+  ;
+
+}
+.container2-image{
+    margin-left: 20px;
+}
+.container2-content-paragraphs p{
+
+  padding-bottom: 10px;
+  font-size: 9px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container3{
+  background-color: #F2F2F2;;
+  width: 414px;
+  height: 455px;
+  position: relative;
+}
+.container3-content{
+  position: absolute;
+  width: 242px;
+  height: 363px;
+  left: 86px;
+  top: 48px;
+  text-align: center;
+}
+
+.container3 h2{
+  font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 21px;
+color: #404040;
+}
+.container3 p{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 21px;
+color: #404040;
+margin-top: 8px;
+}
+.container3 img{
+  margin-top: 30px;
+}
+.container3 button{
+  width: 112px;
+height: 39px;
+border: 1px solid #404040;
+margin-top: 20px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+
+}
