@@ -9,13 +9,13 @@
   max-width: 414px;
 }
 .container {
-
   height: 896px;
   background-image: url("./Images/james-barr-zy5JTdcC0fE-unsplash\ 2.png");
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
   position: relative;
+  width: 100%;
 }
 .toggle {
   position: absolute;
@@ -38,7 +38,6 @@
  
 }
 .intro-paragraph {
-
   left: 20px;
   top: 656px;
   position: absolute;
